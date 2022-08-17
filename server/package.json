@@ -1,0 +1,16 @@
+{
+  "name": "JewelryStore",
+  "version": "1.0.0",
+  "description": "base on store",
+  "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Omri Shitrit",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongoose": "^6.5.0"
+    }
+}
