@@ -17,8 +17,8 @@ module.exports.createNewProduct = async (req, res) => {
             size 
         });//הפונק מחזירה פרומיס לכן הוספנו AWAIT
         sendRes(res, newProduct, 201); //שלחנו את זה לפונקציה ב CONTROLLERS
-    } catch {
-        sendRes(res, 400, true);
+    } catch(err) {
+        sendRes(res, err, 400, true);
     }
 
 }
